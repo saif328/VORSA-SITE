@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  text-align: center;
+}
+
+.title {
+  margin-top: 30px;
+  color: #14532d;
+}
+
+.company-logo {
+  width: 120px;
+  margin: 15px 0;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.apps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-card {
+  background: #ffffff;
+  width: 90%;
+  max-width: 320px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.app-card:hover {
+  transform: scale(1.04);
+}
+
+.app-card img {
+  width: 140px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.app-card h3 {
+  margin: 10px 0 5px;
+  color: #166534;
+}
+
+.app-card p {
+  font-size: 14px;
+  color: #555;
+}
